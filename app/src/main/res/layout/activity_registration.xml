@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registration">
+    <TextView
+        android:id="@+id/tvRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+               android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Radio Button"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRg"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:showDividers="beginning|middle|end"
+        android:layout_marginTop="10dp"
+        android:id="@+id/radioGroup" >
+
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXCELLENT"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GOOD"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OKAY"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POOR"
+            android:checked="false" />
+
+    </RadioGroup>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CheckBox"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:textStyle="bold"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" I really enjoy this lesson."
+        android:id="@+id/cb1"
+        android:layout_below="@+id/tvCb"
+        android:layout_centerHorizontal="true"
+        android:checked="false"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I will prefer this lesson over any other."
+        android:id="@+id/cb2"
+        android:layout_below="@+id/cb1"
+        android:layout_centerHorizontal="true"
+        android:checked="false"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I would like to hear more from you."
+        android:id="@+id/cb3"
+        android:layout_below="@+id/cb2"
+        android:layout_centerHorizontal="true"
+        android:checked="false"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am satisfied with the content and full description."
+        android:id="@+id/cb4"
+        android:layout_below="@+id/cb3"
+        android:layout_centerHorizontal="true"
+        android:checked="false"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/btnSubmit"
+        android:layout_gravity="center"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

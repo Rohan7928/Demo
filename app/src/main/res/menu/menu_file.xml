@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/i1"
+        android:title="Click me to see sub-menu"
+        android:icon="@drawable/ic_crop_portrait_black_24dp" >
+
+        <!-- "item" submenu -->
+        <menu>
+            <item android:id="@+id/i2"
+                android:title="subitem 1"
+                android:icon="@drawable/ic_crop_portrait_black_24dp"/>
+            <item android:id="@+id/i3"
+                  android:title="subitem 2"
+                android:icon="@drawable/ic_crop_portrait_black_24dp" />
+        </menu>
+    </item>
+    <item android:id="@+id/i4"
+        android:icon="@drawable/ccp_ic_arrow_drop_down"
+        android:title=""
+        app:showAsAction="always"
+        >
+
+    </item>
+
+
+ </menu>

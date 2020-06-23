@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string-array name="array_technology">
+        <item>Android</item>
+        <item>A</item>
+        <item>N</item>
+        <item>D</item>
+        <item>R</item>
+        <item>O</item>
+        <item>I</item>
+        <item>D</item>
+    </string-array>
+</resources>

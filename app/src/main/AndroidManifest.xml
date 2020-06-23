@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="First_App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".Testing"></activity>
+        <activity android:name=".First">
+
+        </activity>
+        <activity android:name=".Life_Cycle"></activity>
+        <activity android:name=".flash" />
+        <activity android:name=".Search_View" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Menus" />
+        <activity android:name=".Shared_Pref" />
+        <activity android:name=".Table_layout" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Call" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".List_View" />
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+</manifest>
